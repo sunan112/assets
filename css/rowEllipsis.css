@@ -1,0 +1,24 @@
+/*多行溢出*/
+.row-ellipsis-1 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;/*行数*/
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.row-ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;/*行数*/
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.row-ellipsis-3 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;/*行数*/
+  -webkit-box-orient: vertical;
+}
